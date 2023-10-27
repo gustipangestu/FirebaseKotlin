@@ -34,7 +34,7 @@ class ObjDetection: ImageAnalysis.Analyzer{
                         val box = hsl.boundingBox
                         for (lbl in label){
                             val cls = lbl.text
-                            val cls1 = lbl.text
+                            
                             val conf = lbl.confidence
                             Log.d("hasil", cls.toString()+conf.toString())
                         }
